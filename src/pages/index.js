@@ -8,6 +8,7 @@ import {
 
 import Image from 'next/image'
 import Foto from '../../public/Foto.png'
+import Error from '../../public/error.png'
 import code from '../../public/code.png'
 import design from '../../public/design.png'
 import consulting from '../../public/consulting.png'
@@ -77,7 +78,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto bg-gradient-to-b from-sky-300 to-sky-100 rounded-full w-72 h-72 relative overflow-hidden mt-10 md:h-80 md:w-80">
-            {/* <Image src={Foto} layout="fill" objectFit="cover" /> */}
+            <Image src={Foto} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -93,15 +94,19 @@ export default function Home() {
               consequuntur autem.
             </p>
             <p className="text-lg font-medium py-2 leading-8 text-gray-900 dark:text-amber-300">
-              Since the beginning of my journey as a freelance designer and developer, I ve done remote work for
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+              maxime suscipit cumque sunt nobis beatae?
               <span className="text-cyan-600"> agencies </span>
-              consulted for <span className="text-cyan-600">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              consulted for <span className="text-cyan-600">Lorem. </span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              labore ad, porro aliquid inventore ex nulla voluptatem tenetur
+              ullam nemo.
             </p>
             <p className="text-lg font-medium py-2 leading-8 text-gray-900 dark:text-amber-300">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae quisquam ullam tempora illo saepe sequi, fugit
+              exercitationem rem voluptatem. Voluptas eum nobis ipsa rem
+              deleniti ratione placeat omnis voluptatem voluptates!
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -109,40 +114,44 @@ export default function Home() {
               {/* <Image src={design} width={100} height={100} /> */}
               <h3 className="text-lg font-medium pt-8 pb-2  ">Designer</h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+                veritatis.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               {/* <Image src={code} width={100} height={100} /> */}
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                programming languages
               </h3>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">programming languages i used</h4>
+              <p className="text-gray-800 py-1">Kotlin</p>
+              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">SQL & NoSQL (JSON)</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               {/* <Image src={consulting} width={100} height={100} /> */}
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Lorem, ipsum dolor.
+              </h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo quos perspiciatis error. Eaque, maiores nisi.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
+        </section>
+        <section >
+        <Image src={Error}/>
         </section>
       </main>
     </div>
